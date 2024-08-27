@@ -9,7 +9,12 @@ Thalia programmers guild
 - Turing complete
 - Een moeilijk ding gezamelijk proberen te implementeren zoals iets met graphics een shader ofzo
 - How to remove audible drm
-- How to make a good cli! argparse, fileinput,
+- How to make a good cli! argparse, fileinput
+  - action = "store_true"
+  - help
+  - default
+  - mutually exclusive
+  - its not hard!!
 - Becoming a pytonista, tips and tricks to write beatiful python code
   - propper file iteration in plaats van lelijke en slechte .readlines()
   - enumerate
