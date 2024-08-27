@@ -31,3 +31,4 @@ Thalia programmers guild
   - yield from
   - 2 way generators 
   - Maak een persistant dict
+  - Easy multiprocessing zonder dependencies
