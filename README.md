@@ -32,3 +32,5 @@ Thalia programmers guild
   - 2 way generators 
   - Maak een persistant dict
   - Easy multiprocessing zonder dependencies
+  - set and generator comprehensions
+  - Watch video on two from mcoding about 15 features or code smells
