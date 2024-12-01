@@ -16,6 +16,7 @@ Thalia programmers guild
   - mutually exclusive
   - its not hard!!
 - Becoming a pytonista, tips and tricks to write beatiful python code
+  - defaultdict
   - propper file iteration in plaats van lelijke en slechte .readlines()
   - enumerate
   - poetry, of uv
