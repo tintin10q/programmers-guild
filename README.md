@@ -35,3 +35,8 @@ Thalia programmers guild
   - Easy multiprocessing zonder dependencies
   - set and generator comprehensions
   - Watch video on two from mcoding about 15 features or code smells
+
+```python
+L = [1, 2, 3, 4, 5, 6, 7, 8]
+a, *b = L # a = 1 and b = [2, 3, 4, 5, 6, 7, 8]
+```
