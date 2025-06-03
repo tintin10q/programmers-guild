@@ -1,0 +1,47 @@
+"""
+Two winters ago I created this program programming_guild.py
+It ran without problems :) No exceptions!
+
+The only thing stopping you from creating things is taking the first step!
+"""
+
+from radboud.associations import Thalia, Event
+from radboud.Exceptions import *
+import os, itertools
+
+us = Thalia.getMembers("Quinten Cabo", "Quint Van Oorschot")
+
+try:
+    Thalia.technicie.join(us)
+except WantToDoProgrammingTogetherButNotOnlyDjangoSiteOrFlutterAppException:
+    events = [
+        Event(name="Leet code dragon competition"), Event(name="BAPCie practice"),
+        Event(name="Intermediate Python"), Event(name="Together Projects"),
+        Event(name="Telegram chatbots?"), Event(name="Turing Complete")]
+
+    proposal = Thalia.guilds.createProposal(name="Programming Guild", events=events, founders=us)
+
+    try:
+        guild = Thalia.board.createGuild(proposal)
+    except Thalia.board.RejectedError:
+        [_,_] = map(lambda guy: guy.cry(), us)
+        os.execlpe("python","python", "programming_guild.py")
+
+    def createPromo(event):
+        promocie = Thalia.commities.promocie
+        return us.createPromo(event) if us.gotTime() else promocie.createPromo(event, whoasked=us)
+
+    for event in itertools.chain(iter(events), guild.members.creatvity.thinkOfEvents()):
+        marketing = createPromo(event)
+        marketing.pusblish()
+        result = event.organise(access=guild.mercAccess)
+        for member in result.people:
+            input(f"Hi {(name := input('Whats your name:'))} Press enter to join Programming Guild!")
+            guild.join(Thalia.findMember(name))
+
+    print("May the programming guild continue for many more winters!")
+
+
+
+
+
