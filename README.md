@@ -1,6 +1,8 @@
 # programmers-guild
 Thalia programmers guild 
 
+![Logo](guild_logo.png)
+
 ## Event ideeen:
 
 - Bilion rows challenge
